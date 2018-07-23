@@ -1,6 +1,6 @@
 # Decompress Snapshot Compressive Imaging (DeSCI)
 This repository contains the code for the paper **Rank Minimization for Snapshot Compressive Imaging** (preprint 2018) by [Yang Liu*](https://liuyang12.github.io/), [Xin Yuan*](https://www.bell-labs.com/usr/x.yuan), [Jinli Suo](https://sites.google.com/site/suojinli/), [David J. Brady](https://ece.duke.edu/faculty/david-brady), and [Qionghai Dai](http://media.au.tsinghua.edu.cn/qhdai_new.html) (*Equal contributions).
-[[pdf]](https:// "Rank Minimization for Snapshot Compressive Imaging")   [[project page]](https:// "Rank Minimization for Snapshot Compressive Imaging")
+[[pdf]](https://arxiv.org/pdf/1807.07837.pdf "arXiv preprint")   [[project page]](https://github.com/liuyang12/DeSCI "github repository")
 
 ![Video comparison of DeSCI.](/results/video/desci_gmm_gaptv_kobe32.gif?raw=true)
 
@@ -50,7 +50,7 @@ It could take hours to run a single measurement depending on the number of frame
    author = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
    title = {Rank Minimization for Snapshot Compressive Imaging},
    journal = {arXiv (preprint)},
-   pages = {},
+   pages = {1807.07837},
    year = {2018},
    type = {Journal Article}
 }
