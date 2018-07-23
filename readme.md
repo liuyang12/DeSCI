@@ -40,7 +40,7 @@ demo_desci_video.m
 | `utils`      | utility functions |
 
 ## Platform
-The test platform is MATLAB(R) 2017b operating on Windows(R) 10 (x64) with an Intel(R) Core(TM) 18-core processor at 2.60 GHz and 128 GB memory. No GPU is needed to run this code.
+The test platform is MATLAB(R) 2017b operating on Ubuntu 16.04 LTS (x64) with an Intel(R) Core(TM) 18-core processor at 2.60 GHz and 128 GB RAM. It can run on any machine with MATLAB(R) and Parallel Computing Toolbox, operating on Windows(R), Linux, or Mac OS. No GPU is needed to run this code.
 
 It could take hours to run a single measurement depending on the number of frames collapsed into a single measurement and the number of CPU cores of the machine. This is due to the time-consuming iterations of block matching and low-rank approximation via singular value decomposition for weighted nuclear norm minimization of recovered video/spectral patches. The computation issue might be addressed by using generative adversarial networks (GAN) for block matching, and truncated SVD for low-rank estimation. *Notice: Please donot wait for the results immediately after getting the DeSCI code to run.*
 
