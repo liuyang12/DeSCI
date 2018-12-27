@@ -81,13 +81,13 @@ It could take hours to run a single measurement depending on the number of frame
 ## Citation
 ```
 @article{Liu18DeSCI,
-   author = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
-   title = {Rank Minimization for Snapshot Compressive Imaging},
+   author  = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+   title   = {Rank Minimization for Snapshot Compressive Imaging},
    journal = {IEEE Trans. Pattern Anal.Mach. Intell.},
-   doi = {10.1109/TPAMI.2018.2873587},
-   year = {2018},
-   url = {https://doi.org/10.1109/TPAMI.2018.2873587},
-   type = {Journal Article}
+   doi     = {10.1109/TPAMI.2018.2873587},
+   year    = {2018},
+   url     = {https://doi.org/10.1109/TPAMI.2018.2873587},
+   type    = {Journal Article}
 }
 ```
 
