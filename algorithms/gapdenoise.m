@@ -5,9 +5,13 @@ function [v,psnrall] = gapdenoise( y , opt )
 %   measurements with CASSI or CACTI coding, where y is the measurement
 %   matrix, opt is the parameters for the GAP-Denoise algorithm, typically
 %   the denoiser applied in the framework.
-%   Reference(s)
-%     [1] Y. Liu, X. Yuan, J. Suo, D.J. Brady, and Q. Dai, Rank Minimization
-%         for Snapshot Compressive Imaging, preprint, 2018.
+%   Reference
+%   [1] Y. Liu, X. Yuan, J. Suo, D.J. Brady, and Q. Dai, Rank Minimization 
+%       for Snapshot Compressive Imaging, IEEE Trans. Pattern Anal. Mach. 
+%       Intell. (TPAMI), DOI:10.1109/TPAMI.2018.2873587, 2018.
+%   [2] X. Yuan, Generalized alternating projection based total variation 
+%       minimization for compressive sensing, in Proc. IEEE Int. Conf. 
+%       Image Process. (ICIP), pp. 2539-2543, 2016.
 %   Code credit
 %     Xin Yuan, Bell Labs, xyuan@bell-labs.com, initial version Jul 2, 
 %       2015.

@@ -47,9 +47,15 @@ for kf = 1:nframe
     end
     if isfield(para,'wnnm_int') && para.wnnm_int % GAP-WNNM integrated
         if isfield(para,'flag_iqa') && ~para.flag_iqa % ImQualAss disabled
-            [v,~] = gapwnnm_int(y,para);
+            v = gapwnnm_int(y,para);
         else
             [v,psnrall(kf,:)] = gapwnnm_int(y,para);
+        end
+    elseif isfield(para,'wnnm_int_fwise') && para.wnnm_int_fwise % GAP-WNNM integrated (with frame-wise denoising)
+        if isfield(para,'flag_iqa') && ~para.flag_iqa % ImQualAss disabled
+            v = gapwnnm_int_fwise(y,para);
+        else
+            [v,psnrall(kf,:)] = gapwnnm_int_fwise(y,para);
         end
     else
         if isfield(para,'flag_iqa') && ~para.flag_iqa % ImQualAss disabled

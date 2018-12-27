@@ -14,13 +14,16 @@ Please cite the WNNM paper if you use the WNNM image denoiser.
 [3] S. Gu, Q. Xie, D. Meng, W. Zuo, X. Feng, and L. Zhang, "Weighted Nuclear Norm Minimization and Its Applications to Low Level Vision," International Journal of Computer Vision, vol. 121, no. 2, pp. 183-208, 2017.
 ```
 Please refer to the DeSCI paper if you use the WNNM video denoiser. 
+```
+[4] Y. Liu, X. Yuan, J. Suo, D.J. Brady, and Q. Dai, Rank Minimization for Snapshot Compressive Imaging, IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI), DOI:10.1109/TPAMI.2018.2873587, 2018.
+```
 
 ## VBM4D
 The VBM4D denoiser is downloaded from the [BM3D](http://www.cs.tut.fi/~foi/GCF-BM3D/ "block-matching and 3-D filtering") website (available on http://www.cs.tut.fi/~foi/GCF-BM3D/VBM4D_v1.zip). We use VBM4D instead of VBM3D nor BM4D because VBM4D contains noise estimation, which eliminates the need to estimate the noise level of the alternating projection process compared with VBM3D, and VBM4D outperforms BM4D in terms of videos.
 Please cite the VBM4D paper is you use the VBM4D denoiser.
 ```
-[4] M. Maggioni, G. Boracchi, A. Foi, and K. Egiazarian, "Video Denoising, Deblocking, and Enhancement Through Separable 4-D Nonlocal Spatiotemporal Transforms," IEEE Transactions on Image Processing, vol. 21, no. 9, pp. 3952-3966, May 15 2012.
+[5] M. Maggioni, G. Boracchi, A. Foi, and K. Egiazarian, "Video Denoising, Deblocking, and Enhancement Through Separable 4-D Nonlocal Spatiotemporal Transforms," IEEE Transactions on Image Processing, vol. 21, no. 9, pp. 3952-3966, May 15 2012.
 ```
 
-
-
+# spectrumRGB
+This directory contains the wavelength-to-RGB converter, that is the spectrumRGB package. The spectrumRGB package is used in the demonstration of the spectral reconstruction results, not in the main recovery process of DeSCI. This pakage is downloaded from the File Exchange portal of the MATLAB Central [Spectral and XYZ Color Functions](https://www.mathworks.com/matlabcentral/fileexchange/7021-spectral-and-xyz-color-functions "Spectral and XYZ Color Functions - File Exchange - MATLAB Central") by [Jeff Mather](https://www.mathworks.com/matlabcentral/profile/authors/869511-jeff-mather "Jeff Mather").
