@@ -2,7 +2,9 @@
 This repository contains the code for the paper **Rank Minimization for Snapshot Compressive Imaging** (***IEEE Transactions on Pattern Analysis and Machine Intelligence*** 2018) by [Yang Liu*](https://liuyang12.github.io/), [Xin Yuan*](https://www.bell-labs.com/usr/x.yuan), [Jinli Suo](https://sites.google.com/site/suojinli/), [David J. Brady](https://ece.duke.edu/faculty/david-brady), and [Qionghai Dai](http://media.au.tsinghua.edu.cn/) (*Equal contributions).
 [[pdf]](https://arxiv.org/pdf/1807.07837.pdf "arXiv preprint")   [[project page]](https://github.com/liuyang12/DeSCI "github repository")   [[arXiv]](https://arxiv.org/abs/1807.07837 "arXiv preprint")   [[doi]](https://doi.org/10.1109/TPAMI.2018.2873587 "10.1109/TPAMI.2018.2873587") 
 
-![Video comparison of DeSCI.](/results/video/desci_gmm_gaptv_kobe32.gif?raw=true)
+<p align="center">
+<img src="https://github.com/liuyang12/DeSCI/blob/master/results/video/desci_gmm_gaptv_kobe32.gif?raw=true">
+</p>
 
 Figure 1. Reconstructed `Kobe` video using DeSCI compared with the state-of-the-art methods, *i.e.*, GMM-TP (TIP'14), MMLE-GMM (TIP'15), MMLE-MFA (TIP'15), and GAP-TV (ICIP'16). Here, 8 video frames are encoded in a single measurement and a total of 32 frames are presented by reconstructing 4 snapshot measurements. The `Kobe` video is used in the MMLE-GMM [paper](https://doi.org/10.1109/TIP.2014.2365720 "Compressive Sensing by Learning a Gaussian Mixture Model From Measurements, TIP'15").
 
