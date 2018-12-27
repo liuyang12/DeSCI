@@ -15,11 +15,11 @@ Figure 1. Reconstructed `Kobe` video using DeSCI compared with the state-of-the-
 Figure 2. Reconstructed spectra of `toy` hyperspectral images using DeSCI compared with GAP-TV (ICIP'16). Here, 32 spectral frames are encoded in a single measurement. The `toy` hyperspectral images are from the CAVE multispectral image [database](http://www.cs.columbia.edu/CAVE/databases/multispectral/ "Multispectral Image Database | CAVE | Columbia University"). 
 
 ## Snapshot compressive imaging (SCI)
-Snapshot compressive imaging (SCI) refers to encoding the three- or higher- dimensional data in a snapshot with distinct masks (or coded aperture) for each slice of the data. Decompress snapshot compressive imaging (DeSCI) then exploits the nonlocal self-similarity of natural scenes and applys an alternating minimization algorithm to solve the ill-posed problem. 
+Snapshot compressive imaging (SCI) refers to encoding the three- or higher- dimensional data in a snapshot with distinct mask (or coded aperture) for each slice of the data. Decompress snapshot compressive imaging (DeSCI) then exploits the nonlocal self-similarity of natural scenes and applys an alternating minimization algorithm to solve the ill-posed problem. 
 
 Performance boost compared with the state-of-the-art methods includes more than 4 dB in terms of PSNR for simulated data and significant improvement for real data, which is addressed in the DeSCI paper. A video comparison of the proposed DeSCI method with the state-of-the-art algorithms is shown in Figure 1. 
 
-This code contains the simulated high-speed video `Kobe` dataset encoded with shifting masks following the coded aperture compressive temporal imager (CACTI), and the simulated hyperspectral `toy` dataset following the coded aperture shapshot spectral imager (CASSI). Review of the SCI systems, including CASSI and CACTI, and compressive light-field imaging is shown in Section 2 of the DeSCI paper. DeSCI could also be adapted for other compressive imaging systems with minor modifications, since we only need to change the sensing matrix for various coding strategies and the nonlocal self-similarity always hold for natural scenes. Code for the CACTI and CASSI data from real systems are available upon request. 
+This code contains the simulated high-speed video `Kobe` dataset encoded with shifting masks following the coded aperture compressive temporal imager (CACTI), and the simulated hyperspectral `toy` dataset following the coded aperture shapshot spectral imager (CASSI). A brief review of the SCI systems, including CASSI and CACTI, and compressive light-field imaging is shown in Section 2 of the DeSCI paper. DeSCI could also be adapted for other compressive imaging systems with minor modifications, since we only need to change the sensing matrix for various coding strategies and the nonlocal self-similarity always hold for natural scenes. Code for the CACTI and CASSI data from real systems are available upon request. 
 
 ## Usage
 ### Download the DeSCI repository
@@ -31,6 +31,7 @@ git clone https://github.com/liuyang12/DeSCI
 or download the [zip file](https://github.com/liuyang12/DeSCI/archive/master.zip) manually.
 
 ### Run DeSCI on high-speed video
+#### `Kobe` video data
 2. Test the DeSCI algorithm (for high-speed imaging, that is CACTI on `Kobe` dataset) via
 ```matlab
 test_desci.m
@@ -41,6 +42,7 @@ and (optionally) video demonstrate the reconstruction results (after running `te
 ```
 
 ### Run DeSCI on hyperspectral images
+#### `toy` hyperspectral data
 3. Test the DeSCI algorithm (for hyperspectral imaging, that is CASSI on `toy` dataset) via
 ```matlab
 test_desci_cassi.m
@@ -50,7 +52,7 @@ and (optionally) video demonstrate the reconstruction results (after running `te
 ./figures/fig_desci_cassi.m
 ```
 
-#### `bird` dataset
+#### `bird` hyperspectral data
 [Optional] Test the DeSCI algorithm (for hyperspectral imaging, that is CASSI on `bird` dataset) via
 ```matlab
 ./figures/test_desci_cassi_bird.m
@@ -60,11 +62,11 @@ and (optionally) video demonstrate the reconstruction results (after running `./
 ./figures/fig_desci_cassi_bird.m
 ```
 
-Note that running the `bird` dataset is time- and memory- consuming for the size of the images is $1021\times 703$ with 24 spectral bands. Please ensure that the machine has *at least* 8 physical CPU cores and 32 GB memory to run `./figures/test_desci_cassi_bird.m`, where more CPU cores and memory help.
+Note that running the `bird` dataset is time- and memory- consuming for the size of the images is $1021\times 703$ with 24 spectral bands. Please ensure that the machine has *at least* 8 physical CPU cores and 32 GB memory to run `./figures/test_desci_cassi_bird.m`, where more CPU cores and memory help for faster reconstruction.
 
 ## Structure of directories
 
-| directory  | discription  |
+| directory  | description  |
 | :--------: | :----------- | 
 | `algorithms` | MATLAB functions of main algorithms proposed in the paper (original) | 
 | `figures`    | MATLAB scripts to reproduce the results and figures in the paper (original) |
