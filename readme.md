@@ -6,9 +6,9 @@ This repository contains the code for the paper **Rank Minimization for Snapshot
 
 Figure 1. Reconstructed `Kobe` video using DeSCI compared with the state-of-the-art methods, *i.e.*, GMM-TP (TIP'14), MMLE-GMM (TIP'15), MMLE-MFA (TIP'15), and GAP-TV (ICIP'16). Here, 8 video frames are encoded in a single measurement and a total of 32 frames are presented by reconstructing 4 snapshot measurements. The `Kobe` video is used in the MMLE-GMM [paper](https://doi.org/10.1109/TIP.2014.2365720 "Compressive Sensing by Learning a Gaussian Mixture Model From Measurements, TIP'15").
 
-<imag align="center" src="https://github.com/liuyang12/DeSCI/raw/master/results/spectral/desci_cassi_toy_spectra.png?raw=true" width="600">
+<img align="center" src="https://github.com/liuyang12/DeSCI/raw/master/results/spectral/desci_cassi_toy_spectra.png?raw=true" width="600">
 
-Figure 2. Reconstructed spectra of `toy` hyperspectral images using DeSCI compared with GAP-TV (ICIP'16). Here, 32 spectral frames are encoded in a single measurement. The `toy` hyperspectral images are from [the CAVE multispectral image database](http://www.cs.columbia.edu/CAVE/databases/multispectral/ "Multispectral Image Database | CAVE | Columbia University"). 
+Figure 2. Reconstructed spectra of `toy` hyperspectral images using DeSCI compared with GAP-TV (ICIP'16). Here, 32 spectral frames are encoded in a single measurement. The `toy` hyperspectral images are from the CAVE multispectral image [database](http://www.cs.columbia.edu/CAVE/databases/multispectral/ "Multispectral Image Database | CAVE | Columbia University"). 
 
 ## Snapshot compressive imaging (SCI)
 Snapshot compressive imaging (SCI) refers to encoding the three- or higher- dimensional data in a snapshot with distinct masks (or coded aperture) for each slice of the data. Decompress snapshot compressive imaging (DeSCI) then exploits the nonlocal self-similarity of natural scenes and applys an alternating minimization algorithm to solve the ill-posed problem. 
