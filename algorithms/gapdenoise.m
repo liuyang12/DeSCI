@@ -68,7 +68,7 @@ psnrall = []; % return empty with no ground truth
 v = v0; % initialization
 
 k = 1; % current number of iteration
-for isig = 1:length(sigma) % extension for a series of noise levels
+for isig = 1:length(maxiter) % extension for a series of noise levels
     nsigma = sigma(isig); 
     opt.sigma = nsigma;
     for iter = 1:maxiter(isig)

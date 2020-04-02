@@ -1,9 +1,9 @@
 %TEST_DESCI Test decompress snapshot compressive imaging (DeSCI) for 
 %simulated coded aperture compressive temporal imaging (CACTI) dataset.
 % Reference
-%   [1] Y. Liu, X. Yuan, J. Suo, D.J. Brady, and Q. Dai, Rank Minimization 
+%   [1] Y. Liu, X. Yuan, J. Suo, D. J. Brady, and Q. Dai, Rank Minimization 
 %       for Snapshot Compressive Imaging, IEEE Trans. Pattern Anal. Mach. 
-%       Intell. (TPAMI), DOI:10.1109/TPAMI.2018.2873587, 2018.
+%       Intell. (TPAMI), vol. 41, no. 12, pp. 2990-3006, 2019,
 %   [2] X. Yuan, Generalized alternating projection based total variation 
 %       minimization for compressive sensing, in Proc. IEEE Int. Conf. 
 %       Image Process. (ICIP), pp. 2539-2543, 2016.
@@ -13,10 +13,10 @@
 %   [3] J. Yang, X. Liao, X. Yuan, P. Llull, D. J. Brady, G. Sapiro, and 
 %       L. Carin, Compressive sensing by learning a Gaussian mixture model
 %       from measurements, IEEE Trans. Image Process., vol. 24, no. 1, 
-%       pp. 106¨C119, 2015.
+%       pp. 106-119, 2015.
 %   [4] J. Yang, X. Yuan, X. Liao, P. Llull, G. Sapiro, D. J. Brady, and 
 %       L. Carin, Video compressive sensing using Gaussian mixture models,
-%       IEEE Trans. Image Process., vol. 23, no. 11, pp. 4863¨C4878, 2014.
+%       IEEE Trans. Image Process., vol. 23, no. 11, pp. 4863-4878, 2014.
 % Contact
 %   Xin Yuan, Bell Labs, xyuan@bell-labs.com, initial version Jul 2, 2015.
 %   Yang Liu, Tsinghua University, y-liu16@mails.tsinghua.edu.cn, last 

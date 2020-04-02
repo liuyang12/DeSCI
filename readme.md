@@ -1,6 +1,8 @@
 # Decompress Snapshot Compressive Imaging (DeSCI)
-This repository contains the code for the paper **Rank Minimization for Snapshot Compressive Imaging** (***IEEE Transactions on Pattern Analysis and Machine Intelligence*** 2018) by [Yang Liu*](https://liuyang12.github.io/), [Xin Yuan*](https://www.bell-labs.com/usr/x.yuan), [Jinli Suo](https://sites.google.com/site/suojinli/), [David J. Brady](https://ece.duke.edu/faculty/david-brady), and [Qionghai Dai](http://media.au.tsinghua.edu.cn/) (*Equal contributions).
-[[pdf]](https://arxiv.org/pdf/1807.07837.pdf "arXiv preprint")   [[project page]](https://github.com/liuyang12/DeSCI "github repository")   [[arXiv]](https://arxiv.org/abs/1807.07837 "arXiv preprint")   [[doi]](https://doi.org/10.1109/TPAMI.2018.2873587 "10.1109/TPAMI.2018.2873587") 
+This repository contains the MATLAB code for the paper **Rank Minimization for Snapshot Compressive Imaging** (***IEEE Transactions on Pattern Analysis and Machine Intelligence*** 2019) by [Yang Liu*](https://liuyang12.github.io/), [Xin Yuan*](https://www.bell-labs.com/usr/x.yuan), [Jinli Suo](https://sites.google.com/site/suojinli/), [David J. Brady](https://ece.duke.edu/faculty/david-brady), and [Qionghai Dai](http://media.au.tsinghua.edu.cn/) (*Equal contributions).
+[[pdf]](https://arxiv.org/pdf/1807.07837.pdf "arXiv preprint")   [[github]](https://github.com/liuyang12/DeSCI "github repository")  [[data]](https://drive.google.com/open?id=1d2uh9nuOL5Z7WnEQJ5HZSDMWK2VAT9sH "real data and code")  [[arXiv]](https://arxiv.org/abs/1807.07837 "arXiv preprint")   [[doi]](https://doi.org/10.1109/TPAMI.2018.2873587 "10.1109/TPAMI.2018.2873587")  
+
+**[New] Real data and associated code are available at [this link on Google Drive](https://drive.google.com/open?id=1d2uh9nuOL5Z7WnEQJ5HZSDMWK2VAT9sH).** Note that the code for real data is not tested but with raw results as in the paper. Please refer to the readme file for the original source(s) of the real data.
 
 <p align="center">
 <img src="https://github.com/liuyang12/DeSCI/blob/master/results/video/desci_gmm_gaptv_kobe32.gif?raw=true">
@@ -82,18 +84,21 @@ It could take hours to run a single measurement depending on the number of frame
 
 ## Citation
 ```
-@article{Liu18DeSCI,
+@article{Liu19DeSCI,
    author  = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
    title   = {Rank Minimization for Snapshot Compressive Imaging},
    journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
    doi     = {10.1109/TPAMI.2018.2873587},
-   year    = {2018},
+   year    = {2019},
+   volume  = {41},
+   number  = {12},
+   pages   = {2990 - 3006},
    url     = {https://doi.org/10.1109/TPAMI.2018.2873587},
    type    = {Journal Article}
 }
 ```
 
 ## Contact
-[Yang Liu, Tsinghua University](mailto:y-liu16@mails.tsinghua.edu.cn "Yang Liu, Tsinghua University") 
+[Yang Liu, Tsinghua University](mailto:yliu@csail.mit.edu "Yang Liu, Tsinghua University") 
 
 [Xin Yuan, Bell Labs](mailto:xyuan@bell-labs.com "Xin Yuan, Bell labs")  
